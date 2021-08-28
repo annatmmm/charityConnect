@@ -1,6 +1,6 @@
 
 
-import Search from './search';
+import Search from './components/search';
 import Group from './assets/Group.png'
 
 

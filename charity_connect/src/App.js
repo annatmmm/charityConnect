@@ -1,15 +1,26 @@
-import './App.css';
+
+
 import Search from './search';
+import Group from './assets/Group.png'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          Charity Connect
-        </h1>
+      <div className="App-header">
+        <div className="title">
+          <text>
+        communityPlus
+        </text>
+        </div>
+        <div className="intro">
+          <text>
+          Supporting marginalized communities by connecting them with 50+ relevant organizations and services in Waterloo Region
+          </text>
+        </div>
         <Search/>
-      </header>
+      </div>
+      <img className="graphic" src={Group} />
     </div>
   );
 }

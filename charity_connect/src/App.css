@@ -27,7 +27,7 @@ bottom: 43.36%;
 position: absolute;
 width: 538px;
 height: 98px;
-left: 59px;
+left: 48px;
 top: 142px;
 font-size: 70px;
 color: #043F8D;
@@ -85,4 +85,13 @@ border: none;
 
   top: 370px;
   padding: 10px;
+}
+
+.or{
+  position: absolute;
+  color: #043F8D;
+  font-size: 23px;
+height: 55px;
+left: 100px;
+top: 450px;
 }

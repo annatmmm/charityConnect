@@ -1,10 +1,19 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(rgba(255, 237, 236, 0.45), rgba(71, 127, 228, 0.49));
 }
 
 
+.graphic{ 
+  position: absolute;
+left: 60.21%;
+right: 5.33%;
+top: 15.14%;
+bottom: 43.36%;
+
+}
 .App-header {
-  background-color: steelblue;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,6 +23,66 @@
   color: white;
 }
 
+.title{
+position: absolute;
+width: 538px;
+height: 98px;
+left: 59px;
+top: 142px;
+font-size: 70px;
+color: #043F8D;
+font-family: sans-serif;
+;
+}
+
+.intro{
+  position: absolute;
+  width: 730px;
+  height: 98px;
+  left: 100px;
+  top: 265px;
+  color: #043F8D;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: left;
+  font-family: sans-serif;
+
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.searchBar{
+position: absolute;
+width: 690.7px;
+height: 62px;
+left: 63px;
+top: 370px;
+
+border: none;
+}
+
+.input{
+  background-color:#EDF4FD;
+  border-radius: 10px;
+  border: none;
+  width: 563px;
+  height: 45%;
+  left: 70px;
+  top: 370px;
+  padding: 10px;
+  outline: none;
+
+}
+
+.submit{
+  color:#093c7e;
+  background-color: #EDF4FD;
+  border-radius: 10px;
+  border: none;
+  height: 77%;
+
+  top: 370px;
+  padding: 10px;
 }

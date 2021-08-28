@@ -1,15 +1,13 @@
+import './App.css';
+import {SearchOutlined} from '@ant-design/icons'
+
 const Search = () => {
     return (
-        <form>
-            <label>Search charities: </label>
-            
-            <input 
-                type="text"
-                id="charity_search"
-                placeholder="Enter charity name"
-            />
-            <button type="submit">
-                Search
+        <form className="searchBar">
+            <input className="input" type='text' placeholder='Enter Organization Name' />
+		
+            <button className="submit" type="submit">
+            <SearchOutlined/>
             </button>
         </form>
     );

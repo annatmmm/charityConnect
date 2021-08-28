@@ -1,16 +1,15 @@
-
-
 import Search from './components/search';
 import Group from './assets/Group.png'
-
+import NavigationBar from './components/navigation';
 
 function App() {
   return (
     <div className="App">
+      <NavigationBar/>
       <div className="App-header">
         <div className="title">
           <text>
-        communityPlus
+        Community+
         </text>
         </div>
         <div className="intro">

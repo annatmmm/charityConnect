@@ -1,17 +1,13 @@
+
+
 const NavigationBar = () => {
     return (
-        <form>
-            <label>Search charities: </label>
-            
-            <input 
-                type="text"
-                id="charity_search"
-                placeholder="Enter charity name"
-            />
-            <button type="submit">
-                Search
-            </button>
-        </form>
+        <div class="top_navigation">
+        <a class="active" href="/">ADD ICON</a>
+        <a href="/">Service Search</a>
+        <a href="/">For Volunteer</a>
+        <a href="/">For Organization</a>
+        </div>
     );
 }
 

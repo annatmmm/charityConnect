@@ -5,7 +5,9 @@
 
 
 .graphic{ 
-  position: absolute;
+position: absolute;
+
+
 left: 60.21%;
 right: 5.33%;
 top: 15.14%;
@@ -87,3 +89,28 @@ border: none;
   padding: 10px;
 }
 
+.serviceContainer{
+background-color: violet;
+position: absolute;
+width: 60%;
+height: 195px;
+left: 100px;
+top: 500px;
+}
+
+  .or{
+    position: absolute;
+    color: #043F8D;
+    font-size: 23px;
+  height: 55px;
+  left: 100px;
+  top: 450px;
+  }
+
+  .drop{
+position: absolute;
+width: 198px;
+height: 58px;
+left: 100px;
+top: 500px;
+  }

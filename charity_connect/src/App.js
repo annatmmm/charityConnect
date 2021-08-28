@@ -1,16 +1,17 @@
 import React from 'react';
-import Search from './components/search';
-import Group from './assets/Group.png';
 import Dropdown from './components/dropdown';
-
-
+import Search from './components/search';
+import Group from './assets/Group.png'
+import NavigationBar from './components/navigation';
 
 function App() {
   return (
     <div className="App">
+      <NavigationBar/>
       <div className="App-header">
         <div className="title">
-          <text>Care Connect
+          <text>
+        CareConnect
         </text>
         </div>
         <div className="intro">

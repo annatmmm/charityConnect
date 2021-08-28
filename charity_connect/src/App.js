@@ -17,12 +17,8 @@ function App() {
           Supporting marginalized communities by connecting them with 50+ relevant organizations and services in Waterloo Region
           </text>
         </div>
-        <div>
         <Search/>
-        </div>
-        <div className="or">
-        <text> Or select a service you are looking for:</text>
-        </div>
+
       </div>
       <img className="graphic" src={Group} />
     </div>

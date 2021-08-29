@@ -1,19 +1,18 @@
 .login_box {
-    min-height: 80vh;
-    margin: auto;
-    width: 80%;
-    padding: 10px;
-    margin-top: 10%;
-  }
+  min-height: 80vh;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  margin-top: 10%;
+}
   
 .login_form {
-    padding-top: 3%;
-    border-radius: 40px;
+  padding-top: 3%;
+  border-radius: 40px;
 }
 
-
 .input_log {
-    background-color:#EDF4FD;
+  background-color:#EDF4FD;
   border-radius: 20px;
   border: none;
   width: 20%;
@@ -37,22 +36,22 @@
 }
 
 .login_title {
-    position:inherit;
-    font-size: 36px;
-    color: #043F8D;
-    padding-bottom: 1%;
+  position:inherit;
+  font-size: 36px;
+  color: #043F8D;
+  padding-bottom: 1%;
 }
   
 .submit_log {
-    margin-top: 15px;
-    margin-bottom: 25px;
-    padding: 45px;
-    color:white;
-    background-color: #093c7e;
-    border-radius: 35px;
-    border: none;
-    height: 77%;
-    width: 200px;
-    top: 370px;
-    padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 45px;
+  color:white;
+  background-color: #093c7e;
+  border-radius: 35px;
+  border: none;
+  height: 77%;
+  width: 200px;
+  top: 370px;
+  padding: 10px;
 }

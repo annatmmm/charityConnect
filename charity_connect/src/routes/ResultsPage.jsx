@@ -1,21 +1,21 @@
 import React from 'react';
 import NavigationBar from '../components/navigation';
+import Result from '../components/result';
 
 const ResultsPage = () => {
     return (
-        <div className="Result">
+        <div className="App">
             <NavigationBar/>
-            <div className="App-header">
-              <div className="title">
+            <div className="results_title">
                 <text>
-                      Care Connect
-                  </text>
-              </div>
-              <div className="intro">
-                <text>
-                    RESULT
+                  Search Result
                 </text>
-              </div>
+            </div>
+
+            <div className="results_area">
+              <Result/>
+              <Result/>
+              <Result/>
             </div>
         </div>
     );

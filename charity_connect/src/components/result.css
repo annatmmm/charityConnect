@@ -1,0 +1,28 @@
+.r_graphic {
+    height: 120px;
+    width: 120px;
+}
+
+.result_display {
+    width: 630px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.results_title {
+    margin-top: 10%;
+    font-size: 36px;
+    color: #043F8D;
+    padding-bottom: 1%;
+}
+
+.results_area {
+    margin: auto;
+    font-size: smaller;
+    align-items: center;
+    color: #043F8D;
+    padding: 10px;
+    width: 50%;
+}

@@ -1,14 +1,24 @@
-.top_navigation {
-  overflow: hidden;
-}
 
 .top_navigation a {
+  height: 20px;
   float: left;
   color: navy;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.logo{
+  padding-top: 0%;
+
 }
 
 .top_navigation a:hover {
@@ -22,6 +32,7 @@
 }
 
 .App {
+  overflow: hidden;
   text-align: center;
   background-image: linear-gradient(rgba(255, 237, 236, 0.45), rgba(71, 127, 228, 0.49));
 }
@@ -35,6 +46,7 @@ bottom: 43.36%;
 
 }
 .App-header {
+  overflow: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -48,9 +60,9 @@ bottom: 43.36%;
 position: absolute;
 width: 538px;
 height: 98px;
-left: 48px;
-top: 142px;
-font-size: 70px;
+left: 2px;
+top: 120px;
+font-size: 60px;
 color: #043F8D;
 font-family: sans-serif;
 ;
@@ -61,9 +73,9 @@ font-family: sans-serif;
   width: 730px;
   height: 98px;
   left: 100px;
-  top: 265px;
+  top: 225px;
   color: #043F8D;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 400;
   text-align: left;
   font-family: sans-serif;
@@ -79,8 +91,7 @@ position: absolute;
 width: 690.7px;
 height: 62px;
 left: 63px;
-top: 370px;
-
+top: 305px;
 border: none;
 }
 
@@ -120,10 +131,10 @@ top: 500px;
   .or{
     position: absolute;
     color: #043F8D;
-    font-size: 23px;
+    font-size: 20px;
   height: 55px;
   left: 100px;
-  top: 450px;
+  top: 390px;
   }
 
   .drop{
@@ -131,5 +142,5 @@ position: absolute;
 width: 198px;
 height: 58px;
 left: 100px;
-top: 500px;
+top: 450px;
   }

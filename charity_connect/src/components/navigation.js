@@ -1,3 +1,4 @@
+import logo from '../assets/logo.png';
 import {
     BrowserRouter as Router,
     Switch,
@@ -9,10 +10,10 @@ const NavigationBar = () => {
     return (
         <Router>
             <div class="top_navigation">
-                <Link to="/">ADD ICON</Link>
-                <Link to="/">Service Search</Link>
-                <Link to="/">For Volunteer</Link>
-                <Link to="/">For Organization</Link>
+                <a><img src={logo} class="center"/> </a>
+                <a href="/">Service Search</a>
+                <a href="/">For Volunteer</a>
+                <a href="/">For Organization</a>
             </div>
         </Router>
     );

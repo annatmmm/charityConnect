@@ -1,6 +1,6 @@
 
   .dropdown {
-    width: 220px;
+    width: 180px;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0,0,0,.1);
     background-color: white;
@@ -14,17 +14,17 @@
     align-items: center;
     color: #043F8D;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
   }
   
   .dropdown-body {
     padding: 5px;
     color: #043F8D;
-    
-    font-size: 20px;
+    font-size: 11px;
     border-top: 1px solid #b0d0dd;
     display: none;
+   
   }
   
   .dropdown-body.open {

@@ -10,7 +10,9 @@ function App() {
       <NavigationBar/>
       <div className="App-header">
         <div className="title">
-          <text>Community+</text>
+          <text>
+        Care Connect
+        </text>
         </div>
         <div className="intro">
           <text>

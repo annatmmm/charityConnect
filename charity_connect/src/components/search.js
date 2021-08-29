@@ -1,8 +1,13 @@
 import '../App.css'
 import {SearchOutlined} from '@ant-design/icons'
 
-function start_search() {
-    alert("NOT_IMPLEMENTED")
+const start_search = async event => {
+    const res = await fetch('../../server/server', {
+        method: 'get'
+        
+      })
+
+    console.log(res.text)
 }
 
 const Search = () => {

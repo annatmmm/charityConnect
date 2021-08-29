@@ -26,7 +26,6 @@
   background-image: linear-gradient(rgba(255, 237, 236, 0.45), rgba(71, 127, 228, 0.49));
 }
 
-
 .graphic{ 
   position: absolute;
 left: 60.21%;
@@ -36,7 +35,7 @@ bottom: 43.36%;
 
 }
 .App-header {
-
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

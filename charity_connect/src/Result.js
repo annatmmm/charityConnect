@@ -12,7 +12,7 @@ function Result() {
           </div>
           <div className="intro">
             <text>
-                TESTT
+                RESULT
             </text>
           </div>
         </div>

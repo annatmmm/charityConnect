@@ -7,7 +7,7 @@ import Result from './Result';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Result />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

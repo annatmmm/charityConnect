@@ -4,19 +4,19 @@ import Group from '../assets/Group.png'
 import NavigationBar from '../components/navigation';
 import Dropdown from '../components/dropdown';
 
-function Home() {
+const Home = () => {
   return (
     <div className="App">
       <NavigationBar/>
       <div className="App-header">
         <div className="title">
           <text>
-        Care Connect
+            Care Connect
         </text>
         </div>
         <div className="intro">
           <text>
-          Supporting marginalized communities by connecting them with 50+ relevant organizations and services in Waterloo Region
+            Supporting marginalized communities by connecting them with 50+ relevant organizations and services in Waterloo Region
           </text>
         </div>
         <div>
@@ -24,7 +24,7 @@ function Home() {
         </div>
         <div className="or">
           <text>
-          Or select a service you are looking for:
+            Or select a service you are looking for:
           </text>
         </div>
         <div className="drop">
@@ -33,7 +33,6 @@ function Home() {
       </div>
       <img className="graphic" src={Group} />
     </div>
-    
   );
 }
 

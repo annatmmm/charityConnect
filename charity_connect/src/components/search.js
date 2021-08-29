@@ -8,8 +8,8 @@ const start_search = async event => {
 const Search = () => {
     return (
         <form className="searchBar">
-            <input className="input" type='text' placeholder='Enter Organization Name' />
-            <button className="submit" type="submit" onClick={start_search}>
+            <input className="input" id="search_org" type='text' placeholder='Enter Organization Name'/>
+            <button className="submit" id="search_submit" type="submit" onClick={start_search}>
             <SearchOutlined/>
             </button>
         </form>

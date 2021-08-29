@@ -11,7 +11,7 @@ function App() {
       <div className="App-header">
         <div className="title">
           <text>
-        CareConnect
+        Care Connect
         </text>
         </div>
         <div className="intro">

@@ -28,8 +28,6 @@
 
 .graphic{ 
 position: absolute;
-
-
 left: 60.21%;
 right: 5.33%;
 top: 15.14%;
@@ -37,7 +35,6 @@ bottom: 43.36%;
 
 }
 .App-header {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

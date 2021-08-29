@@ -1,17 +1,17 @@
 import React from 'react';
-import Dropdown from './components/dropdown';
-import Search from './components/search';
-import Group from './assets/Group.png'
-import NavigationBar from './components/navigation';
+import Dropdown from '../components/dropdown';
+import Search from '../components/dropdown';
+import Group from '../assets/Group.png'
+import NavigationBar from '../components/navigation';
 
-function Home() {
+function Volunteer() {
   return (
     <div className="App">
       <NavigationBar/>
       <div className="App-header">
         <div className="title">
           <text>
-        Care Connect
+        Volunteer
         </text>
         </div>
         <div className="intro">
@@ -37,4 +37,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Volunteer;

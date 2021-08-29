@@ -2,7 +2,13 @@ import { useState, useEffect } from "react";
 import './dropdown.css';
 
 
-const data = [{id: 0, label: "Istanbul, TR (AHL)"}, {id: 1, label: "Paris, FR (CDG)"}];
+const data = [{id: 0, label: "Addiction Treatment"}, {id: 1, label: "Job Search"}, 
+{id: 2, label: "Justice"},
+{id: 3, label: "Shelter Services"},
+{id: 4, label: "Food Hamper"},
+{id: 5, label: "Domestic Violence"},
+{id: 6, label: "Physical Disability Assistance"},
+{id: 7, label: "Senior Support"}, ];
 
 const Dropdown = () => {
   const [isOpen, setOpen] = useState(false);

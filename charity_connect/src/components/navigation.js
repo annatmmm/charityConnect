@@ -1,7 +1,8 @@
+import logo from '../assets/logo.png'
 const NavigationBar = () => {
     return (
         <div class="top_navigation">
-        <a href="/">ADD ICON</a>
+        <a><img src={logo} class="center"/> </a>
         <a href="/">Service Search</a>
         <a href="/">For Volunteer</a>
         <a href="/">For Organization</a>

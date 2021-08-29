@@ -1,21 +1,20 @@
 import React from 'react';
 import NavigationBar from '../components/navigation';
+import LoginForm from '../components/login';
 
 const VolunteerSignInPage = () => {
     return (
-        <div className="Result">
+        <div className="App">
             <NavigationBar/>
-            <div className="App-header">
-                <div className="title">
+            <div className="login_box">
+                <div className="login_title">
                     <text>
-                        Care Connect
+                        Volunteer sign in
                     </text>
                 </div>
-                <div className="intro">
-                    <text>
-                        VOLUNTEER
-                    </text>
-                </div>
+                <p>Please log in with your username and password</p>
+                <LoginForm/>
+                <p>Forgot Password? Contact us!</p>
             </div>
         </div>
     );

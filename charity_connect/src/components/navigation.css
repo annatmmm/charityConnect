@@ -1,0 +1,19 @@
+.top_navigation a:hover {
+    color: black;
+}
+  
+.top_navigation a.active {
+    background-color: navy;
+    color: white;
+}
+
+.top_navigation a {
+    height: 20px;
+    float: left;
+    color: navy;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

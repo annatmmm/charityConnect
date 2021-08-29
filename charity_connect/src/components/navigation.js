@@ -1,4 +1,5 @@
 import logo from '../assets/logo.png';
+import './navigation.css'
 import { Link, BrowserRouter as Router, Route } from "react-router-dom";
 
 const NavigationBar = () => {

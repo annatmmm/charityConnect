@@ -4,3 +4,5 @@ function Organization_Login() {
         <h1>LOGIN</h1>
     );
 }
+
+export default Organization_Login;

@@ -1,21 +1,15 @@
+import React from 'react';
 import logo from '../assets/logo.png';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
     return (
-        <Router>
-            <div class="top_navigation">
-                <a><img src={logo} class="center"/> </a>
-                <a href="/">Service Search</a>
-                <a href="/">For Volunteer</a>
-                <a href="/">For Organization</a>
-            </div>
-        </Router>
+        <div class="top_navigation">
+            <Link to="/"><img src={logo} class="center"/></Link>
+            <Link to="/">Service Search</Link>
+            <Link to="/">For Volunteer</Link>
+            <Link to="/">For Organization</Link>
+        </div>
     );
 }
 

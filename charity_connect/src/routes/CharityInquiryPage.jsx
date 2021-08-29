@@ -9,12 +9,10 @@ const CharityInquiryPage = () => {
             <div className="inquiry_box">
                 <div className="inquiry_title">
                     <text>
-                        INQUIRY
+                        [CHARITY] inquiry
                     </text>
                 </div>
-                <div className="form">
-                    <InquiryForm/>
-                </div>
+                <InquiryForm/>
             </div>
         </div>
     );

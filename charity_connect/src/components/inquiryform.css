@@ -1,0 +1,68 @@
+.inquiry_box {
+    min-height: 75vh;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top: 7%;
+  }
+  
+.inquiry_form {
+    padding-top: 3%;
+    background-color: white;
+    border-radius: 40px;
+}
+
+#person_name {
+    float: left;
+    margin-left: 55px;
+}
+
+#person_email {
+    float: right;
+    margin-right: 55px;
+}
+
+.input_inq {
+    background-color:#EDF4FD;
+  border-radius: 10px;
+  border: none;
+  width: 42%;
+  height: 45%;
+  padding: 10px;
+  outline: none;
+}
+
+.input_inq_1 {
+    background-color:#EDF4FD;
+  border-radius: 20px;
+  border: none;
+  margin-top: 25px;
+  width: 87%;
+  height: 200px;
+  padding: 10px;
+  outline: none;
+  resize: none;
+  font-family: sans-serif;
+}
+
+.inquiry_title {
+    position:inherit;
+    font-size: 36px;
+    color: #043F8D;
+    font-family: sans-serif;
+    padding-bottom: 3%;
+}
+  
+.submit_inq {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 45px;
+    color:white;
+    background-color: #093c7e;
+    border-radius: 35px;
+    border: none;
+    height: 77%;
+    width: 200px;
+    top: 370px;
+    padding: 10px;
+  }
